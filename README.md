@@ -11,6 +11,7 @@ A rider requests a ride, a driver is matched using a strategy, and the fare is c
 ## Strategies
 Set in `src/main/resources/application.properties`. No code changes needed.
 
+
 | Property | Options | Behaviour |
 |---|---|---|
 | `ride.matching.strategy` | `nearest` (default) | Closest available driver |
